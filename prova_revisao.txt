@@ -1,0 +1,67 @@
+ 1. Entender os tipos de dados primitivos
+ -  Inteiro: (10, 20 , 30)
+ -  Float (1.56, 6.89)
+ - String ("x", "y", "z", "alunos")
+ - Boolean ( True, False )
+
+2. Constantes
+ - Imagine que tenhamos um programa que sua rotina prevê acesar um outro programa por meio de um API para receber dados
+ - O Endereço desta API seria um valor constante
+
+3. Variáveis/ Criação de indentificadores
+
+Endereço da memória            Identificador                   Valor 
+0x0100                          nome                             "Jooj"
+0x0101                          idade                            "36"
+0x0102                          altura                           "1.77"
+
+4. Variáveis/ Regras pra criação de indentificadores
+- Devem começar por um caractere alfabético;
+- Podem ser seguidores por mais caraceteres alfabéticos ou numéricos;
+- Não devem ser usados caracteres especiais.
+
+5. Variáveis/ Exemplos de identificadores 
+
+Válidos: alpha, x , notas , nome 
+Inválidos: 5x, e(13), a:B 
+
+6. Operadores Aritméticos, lógicos e relacionais
+
+7. Operadores Lógicos
+
+Operador                      Descrição                 Em Python
+Não                             Negação                   not
+E                               Conjunção                 and
+Ou                              Disjunção                 or 
+
+8. Operadores relacionais 
+
+Descrição                        Em python
+Igual a                            ==
+Maior que                          >
+Menor que                          <
+Maior ou igual a                   >=
+Menor ou igual a                   <=
+Diferente de                       <>
+
+9. Seleção simples 
+idade = int(input("Digite a sua idade:"))
+if idade > 17:
+    print("Pode entrar na festa!")
+elif idade > 16 and idade < 18:
+    print("Está na hora de ir pra casa)
+else: 
+    print ("Vou chamar teus pais")
+
+10. While
+ Refere-se a uma instrução para repetição de um bloco de código desde que sua condição seja verdadeira
+  enquanto <expressão-lógica> faca
+    <sequência-de-comandos>
+  fimenquanto
+
+ spam = 0
+ while spam < 5: 
+    print("Hello, world.")
+    spam = spam + 1
+
+11. For     
