@@ -1,4 +1,5 @@
 import random
+from random import randint
 print("Numeros aleatorios do SORTEIO!.\n")
-for i in range(1,7):
-    print("numero sorteado: ", random.randint(1,100))
+for i in range(1, 11):
+    print("O número sorteado é: ", random.randint(1,100))
