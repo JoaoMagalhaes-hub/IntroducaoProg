@@ -42,7 +42,7 @@ Maior que                          >
 Menor que                          <
 Maior ou igual a                   >=
 Menor ou igual a                   <=
-Diferente de                       <>
+Diferente de                       !=
 
 9. Seleção simples 
 idade = int(input("Digite a sua idade:"))
