@@ -4,5 +4,5 @@ def somar (a, b):
 
 #Usando a função
 resultado = somar (5, 3)
-print (resultado) #Isso imprimirá a outro
+print (resultado) #Isso imprimirá a outro, ELLO
 
